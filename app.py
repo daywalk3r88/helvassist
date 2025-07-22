@@ -1,6 +1,7 @@
 # Streamlit App mit LlamaIndex + OpenAI
 import streamlit as st
-from llama_index import StorageContext, load_index_from_storage
+from llama_index.core import StorageContext, load_index_from_storage
+
 
 st.set_page_config(page_title="Helvetia GPT", layout="wide")
 st.title('Helvetia GPT')
